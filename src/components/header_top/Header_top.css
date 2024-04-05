@@ -1,0 +1,35 @@
+.header {
+  background: #000;
+}
+.header .lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px 0;
+}
+.header_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header pre {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+p,
+pre {
+  font-size: 16px;
+}
+.header p {
+  font-weight: 600;
+  color: #fff;
+  align-items: center;
+  text-decoration: underline;
+}
+.header .lang select {
+  border: none;
+  background: #000;
+  color: #fff;
+}
