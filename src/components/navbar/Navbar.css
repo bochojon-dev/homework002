@@ -1,0 +1,30 @@
+.nav_contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #00000074;
+}
+.items form {
+  display: flex;
+  gap: 30px;
+}
+.items {
+  display: flex;
+  gap: 30px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.icons svg {
+  width: 24px;
+  height: 24px;
+}

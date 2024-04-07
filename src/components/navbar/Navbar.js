@@ -2,13 +2,10 @@ import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { GoHeart } from "react-icons/go";
+import "../navbar/Navbar.css";
 function Navbar() {
   const LINKS = ["Home", "Contact", "About", "Sign in"];
-  let Links = LINKS?.map((val, i) => (
-    <li key={i} className="item">
-      {val}
-    </li>
-  ));
+
   return (
     <div className="navbar">
       <div className="container">
@@ -16,7 +13,15 @@ function Navbar() {
           <div className="logo">
             <h2>Exclusive</h2>
           </div>
-          <ul className="items">{Links}</ul>
+
+          <ul className="items">
+            {LINKS?.map((val, i) => (
+              <li key={i} className="item">
+                {val}
+              </li>
+            ))}
+          </ul>
+
           <div className="icons">
             <div className="form">
               <form>
